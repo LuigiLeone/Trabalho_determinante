@@ -1,7 +1,7 @@
-matriz = [[1, 2, 3, 4],
-     [2, 4, 6, 8],
-     [3, 6, 9, 12],
-     [4, 8, 12, 16]]
+matriz =  [[1, 0, 0, 0],
+          [0, 1, 0, 0],
+          [0, 0, 1, 0],
+          [0, 0, 0, 1]]
 
 def leib(matriz):
     n = len(matriz)
@@ -23,4 +23,4 @@ def leib(matriz):
 
 det = leib(matriz)
 
-print("O valor do determinante da matriz é igual a :", det)
+print("O determinante da matriz :", det)
